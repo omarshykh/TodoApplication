@@ -1,0 +1,50 @@
+body{
+    background-image: url("back.jpg");
+}
+#head{
+    color:#ffffff;
+    margin-top: 110px;
+    margin-left: 380px;
+}
+#textbox{
+    border-color: #fff8DC;
+    background-color: #4C4C4C;
+    color:#ffffff;
+    margin-top: 30px;
+    margin-left: 310px;
+    width: 300px;
+    height: 20px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+#add{
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+    padding-left:25px;
+    padding-right:25px;
+    border-color: rgba(0,0,255,0.1);
+    background-color: rgba(0,0,255,0.2);
+    color: #ffffff;
+    font-weight: bold;
+}
+ul{
+    margin-left:250px;
+    margin-top: 30px; 
+    height: 400px;
+    width: 480px;
+    overflow: auto;
+}
+ul>li{
+    color: #000000;
+    background-color: rgb(128, 128, 64);
+    -webkit-border-radius: 5px;
+    width: 350px;
+    height: 15px;
+    margin: 15px;
+    padding: 10px;
+    list-style-type: none;
+}
+img.listItem:hover{
+    opacity: 0.5;
+}
